@@ -1,0 +1,23 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "dev": "concurrently \"nodemon backend/server.js\" \"cd frontend && set PORT=3001 && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "framer-motion": "^6.5.1",
+    "nodemon": "^3.1.14",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0"
+  }
+}
